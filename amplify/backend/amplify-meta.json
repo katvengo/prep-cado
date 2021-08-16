@@ -11,5 +11,28 @@
       "StackId": "arn:aws:cloudformation:us-west-2:050527149974:stack/amplify-prepcado-dev-161910/5e675470-fee8-11eb-b9fa-06d629665915",
       "AmplifyAppId": "d3cczdw6kdau25"
     }
+  },
+  "auth": {
+    "prepcado71d3ef8d": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-prepcado-dev-161910-deployment/amplify-cfn-templates/auth/prepcado71d3ef8d-cloudformation-template.yml",
+        "logicalId": "authprepcado71d3ef8d"
+      },
+      "lastPushTimeStamp": "2021-08-16T23:38:56.752Z",
+      "output": {
+        "AppClientSecret": "15pvntkkb1hhpo5216cm10sn8iu00qu0248h3nocfl08hnc3q4a0",
+        "UserPoolId": "us-west-2_S0zlYZyqM",
+        "AppClientIDWeb": "3rotblchkeo0ek7t97j63ku78r",
+        "AppClientID": "53rji7avqcqmtvqo0mtqrft3v6",
+        "IdentityPoolId": "us-west-2:3d5af424-6c0a-4eb8-8d97-17db55c0317a",
+        "IdentityPoolName": "prepcado71d3ef8d_identitypool_71d3ef8d__dev",
+        "UserPoolName": "prepcado71d3ef8d_userpool_71d3ef8d"
+      },
+      "lastPushDirHash": "U7cTi28b4piKrHIJBs8ah5mc7Ec="
+    }
   }
 }

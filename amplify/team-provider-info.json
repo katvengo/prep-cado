@@ -10,6 +10,11 @@
       "StackName": "amplify-prepcado-dev-161910",
       "StackId": "arn:aws:cloudformation:us-west-2:050527149974:stack/amplify-prepcado-dev-161910/5e675470-fee8-11eb-b9fa-06d629665915",
       "AmplifyAppId": "d3cczdw6kdau25"
+    },
+    "categories": {
+      "auth": {
+        "prepcado71d3ef8d": {}
+      }
     }
   }
 }

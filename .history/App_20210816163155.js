@@ -3,11 +3,9 @@ import React, {useState} from 'react';
 import { NavigationContainer, StackActions } from '@react-navigation/native';
 
 import { StyleSheet, Text, View } from 'react-native';
-
 import Amplify from 'aws-amplify'
 import config from './src/aws-exports'
 Amplify.configure(config)
-import AWSAppSyncClient from "aws-appsync";
 
 export default function App() {
   return (
