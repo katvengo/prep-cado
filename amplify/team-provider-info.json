@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-prepcado-dev-161910-authRole",
+      "UnauthRoleArn": "arn:aws:iam::050527149974:role/amplify-prepcado-dev-161910-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::050527149974:role/amplify-prepcado-dev-161910-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-prepcado-dev-161910-deployment",
+      "UnauthRoleName": "amplify-prepcado-dev-161910-unauthRole",
+      "StackName": "amplify-prepcado-dev-161910",
+      "StackId": "arn:aws:cloudformation:us-west-2:050527149974:stack/amplify-prepcado-dev-161910/5e675470-fee8-11eb-b9fa-06d629665915",
+      "AmplifyAppId": "d3cczdw6kdau25"
+    }
+  }
+}
