@@ -30,6 +30,6 @@
   },
   "engines": {
     "node": ">=14.0.0 <15.0.0"
-  },
+  }
   "private": true
 }
