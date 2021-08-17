@@ -118,6 +118,27 @@
 				}
 			}
 		},
+		"apiprepCadoUsers": {
+			"Type": "AWS::CloudFormation::Stack",
+			"Properties": {
+				"TemplateURL": "https://s3.amazonaws.com/amplify-prepcado-dev-161910-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+				"Parameters": {
+					"CreateAPIKey": 0,
+					"AppSyncApiName": "prepCadoUsers",
+					"DynamoDBBillingMode": "PAY_PER_REQUEST",
+					"DynamoDBEnableServerSideEncryption": false,
+					"AuthCognitoUserPoolId": {
+						"Fn::GetAtt": [
+							"authprepcado71d3ef8d",
+							"Outputs.UserPoolId"
+						]
+					},
+					"S3DeploymentBucket": "amplify-prepcado-dev-161910-deployment",
+					"S3DeploymentRootKey": "amplify-appsync-files/04e61202ade620c074c53205286ad39849cbfd12",
+					"env": "dev"
+				}
+			}
+		},
 		"UpdateRolesWithIDPFunction": {
 			"DependsOn": [
 				"AuthRole",

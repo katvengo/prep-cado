@@ -22,7 +22,7 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-prepcado-dev-161910-deployment/amplify-cfn-templates/auth/prepcado71d3ef8d-cloudformation-template.yml",
         "logicalId": "authprepcado71d3ef8d"
       },
-      "lastPushTimeStamp": "2021-08-16T23:38:56.752Z",
+      "lastPushTimeStamp": "2021-08-17T18:29:40.918Z",
       "output": {
         "AppClientSecret": "15pvntkkb1hhpo5216cm10sn8iu00qu0248h3nocfl08hnc3q4a0",
         "UserPoolId": "us-west-2_S0zlYZyqM",
@@ -38,8 +38,31 @@
   "hosting": {
     "amplifyhosting": {
       "service": "amplifyhosting",
-      "type": "cicd",
-      "lastPushTimeStamp": "2021-08-16T23:45:22.836Z"
+      "type": "cicd"
+    }
+  },
+  "api": {
+    "prepCadoUsers": {
+      "service": "AppSync",
+      "providerPlugin": "awscloudformation",
+      "output": {
+        "authConfig": {
+          "defaultAuthentication": {
+            "authenticationType": "AMAZON_COGNITO_USER_POOLS",
+            "userPoolConfig": {
+              "userPoolId": "authprepcado71d3ef8d"
+            }
+          },
+          "additionalAuthenticationProviders": []
+        },
+        "GraphQLAPIIdOutput": "jvkec6yhrrggvo64q5scizcpre",
+        "GraphQLAPIEndpointOutput": "https://irwi23sjgvbfvcbpobcedl5oza.appsync-api.us-west-2.amazonaws.com/graphql"
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-prepcado-dev-161910-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+        "logicalId": "apiprepCadoUsers"
+      },
+      "lastPushTimeStamp": "2021-08-17T18:29:40.921Z"
     }
   }
 }
