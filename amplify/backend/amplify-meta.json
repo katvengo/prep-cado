@@ -18,11 +18,6 @@
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
       "customAuth": false,
-      "providerMetadata": {
-        "s3TemplateURL": "https://s3.amazonaws.com/amplify-prepcado-dev-161910-deployment/amplify-cfn-templates/auth/prepcado71d3ef8d-cloudformation-template.yml",
-        "logicalId": "authprepcado71d3ef8d"
-      },
-      "lastPushTimeStamp": "2021-08-17T18:29:40.918Z",
       "output": {
         "AppClientSecret": "15pvntkkb1hhpo5216cm10sn8iu00qu0248h3nocfl08hnc3q4a0",
         "UserPoolId": "us-west-2_S0zlYZyqM",
@@ -31,6 +26,11 @@
         "IdentityPoolId": "us-west-2:3d5af424-6c0a-4eb8-8d97-17db55c0317a",
         "IdentityPoolName": "prepcado71d3ef8d_identitypool_71d3ef8d__dev",
         "UserPoolName": "prepcado71d3ef8d_userpool_71d3ef8d"
+      },
+      "lastPushTimeStamp": "2021-08-17T18:44:48.870Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-prepcado-dev-161910-deployment/amplify-cfn-templates/auth/prepcado71d3ef8d-cloudformation-template.yml",
+        "logicalId": "authprepcado71d3ef8d"
       },
       "lastPushDirHash": "U7cTi28b4piKrHIJBs8ah5mc7Ec="
     }
@@ -58,11 +58,12 @@
         "GraphQLAPIIdOutput": "jvkec6yhrrggvo64q5scizcpre",
         "GraphQLAPIEndpointOutput": "https://irwi23sjgvbfvcbpobcedl5oza.appsync-api.us-west-2.amazonaws.com/graphql"
       },
+      "lastPushTimeStamp": "2021-08-17T18:44:48.878Z",
       "providerMetadata": {
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-prepcado-dev-161910-deployment/amplify-cfn-templates/api/cloudformation-template.json",
         "logicalId": "apiprepCadoUsers"
       },
-      "lastPushTimeStamp": "2021-08-17T18:29:40.921Z"
+      "lastPushDirHash": "+IAv1qBSxCsfxsWo7d6/ut3hFKU="
     }
   }
 }

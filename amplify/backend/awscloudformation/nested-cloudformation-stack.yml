@@ -134,7 +134,7 @@
 						]
 					},
 					"S3DeploymentBucket": "amplify-prepcado-dev-161910-deployment",
-					"S3DeploymentRootKey": "amplify-appsync-files/04e61202ade620c074c53205286ad39849cbfd12",
+					"S3DeploymentRootKey": "amplify-appsync-files/589f4090ae5f5860c0f135467d81d2322b0f175d",
 					"env": "dev"
 				}
 			}
