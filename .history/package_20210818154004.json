@@ -6,11 +6,14 @@
     "web": "expo start --web",
     "start": "expo start",
     "postinstall": "sed -i '' \"s#metro#../../../@react-native-community/cli/node_modules/metro#g\" ./node_modules/react-native/Libraries/Utilities/HMRClient.js"
+
+출처: https://wiwi-pe.tistory.com/96 [선생님 개발블로그가 하고싶었어요.]
   },
   "dependencies": {
     "@eva-design/eva": "^2.1.1",
     "@expo/vector-icons": "^12.0.5",
     "@react-native-async-storage/async-storage": "^1.15.6",
+    "@react-native-community/async-storage": "^1.12.1",
     "@react-native-community/masked-view": "^0.1.11",
     "@react-native-community/netinfo": "^5.9.4",
     "@react-navigation/bottom-tabs": "^6.0.4",
@@ -50,7 +53,7 @@
     "react-native-paper": "^4.9.2",
     "react-native-progress": "^5.0.0",
     "react-native-reanimated": "~2.2.0",
-    "react-native-safe-area-context": "3.2.0",
+    "react-native-safe-area-context": "^3.3.0",
     "react-native-screens": "~3.4.0",
     "react-native-svg": "^12.1.1",
     "react-native-tab-view": "^3.1.1",
@@ -63,6 +66,7 @@
     "@babel/core": "^7.9.0",
     "@expo/webpack-config": "^0.14.0",
     "metro-react-native-babel-preset": "0.53.0"
+
   },
   "engines": {
     "node": ">=14.0.0 <15.0.0"
