@@ -11,7 +11,10 @@ const awsmobile = {
     "aws_appsync_graphqlEndpoint": "https://irwi23sjgvbfvcbpobcedl5oza.appsync-api.us-west-2.amazonaws.com/graphql",
     "aws_appsync_region": "us-west-2",
     "aws_appsync_authenticationType": "AMAZON_COGNITO_USER_POOLS",
-    
+    AWS.config.region = 'us-west-2'; // Region
+AWS.config.credentials = new AWS.CognitoIdentityCredentials({
+    IdentityPoolId: 'us-west-2:5f226c24-acb9-4c28-8739-5cfcb99515f1',
+});
 };
 
 

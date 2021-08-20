@@ -7,16 +7,10 @@ const storeToken = async (authToken) => {
   try {
     await SecureStore.setItemAsync(key, authToken);
   } 
-  catch (error) {
-    try {
-      console.log("hitting storage", authToken)
-      console.log("type", typeof authToken)
-      await localStorage.setItem(key, authToken);
-    } 
-    catch {
-      console.log("Error storing the auth token", error);
-
-    }
+  try {
+    await SecureStore.setItemAsync(key, authToken);
+  } catch (error) {
+    console.log("Error storing the auth token", error);
   }
 };
 
