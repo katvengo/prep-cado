@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "prep-Cado",
+    "slug": "prep-Cado",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "updates": {
+    "fallbackToCacheTimeout": 0
+  },
+  "assetBundlePatterns": [
+    "**/*"
+  ],
+  "ios": {
+    "supportsTablet": true
+  },
+  "packagerOpts": {
+    "config": ".rn-cli.config.js"
+    },
+  "name": "prep-Cado"
+}

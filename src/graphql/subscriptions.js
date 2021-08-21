@@ -24,11 +24,13 @@ export const onCreateUser = /* GraphQL */ `
           images
           createdAt
           updatedAt
+          owner
         }
         nextToken
       }
       createdAt
       updatedAt
+      owner
     }
   }
 `;
@@ -55,11 +57,13 @@ export const onUpdateUser = /* GraphQL */ `
           images
           createdAt
           updatedAt
+          owner
         }
         nextToken
       }
       createdAt
       updatedAt
+      owner
     }
   }
 `;
@@ -86,11 +90,13 @@ export const onDeleteUser = /* GraphQL */ `
           images
           createdAt
           updatedAt
+          owner
         }
         nextToken
       }
       createdAt
       updatedAt
+      owner
     }
   }
 `;
@@ -110,6 +116,7 @@ export const onCreateRecipe = /* GraphQL */ `
         }
         createdAt
         updatedAt
+        owner
       }
       name
       servings
@@ -122,6 +129,7 @@ export const onCreateRecipe = /* GraphQL */ `
       images
       createdAt
       updatedAt
+      owner
     }
   }
 `;
@@ -141,6 +149,7 @@ export const onUpdateRecipe = /* GraphQL */ `
         }
         createdAt
         updatedAt
+        owner
       }
       name
       servings
@@ -153,6 +162,7 @@ export const onUpdateRecipe = /* GraphQL */ `
       images
       createdAt
       updatedAt
+      owner
     }
   }
 `;
@@ -172,6 +182,7 @@ export const onDeleteRecipe = /* GraphQL */ `
         }
         createdAt
         updatedAt
+        owner
       }
       name
       servings
@@ -184,6 +195,7 @@ export const onDeleteRecipe = /* GraphQL */ `
       images
       createdAt
       updatedAt
+      owner
     }
   }
 `;

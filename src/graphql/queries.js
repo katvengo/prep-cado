@@ -24,11 +24,13 @@ export const getUser = /* GraphQL */ `
           images
           createdAt
           updatedAt
+          owner
         }
         nextToken
       }
       createdAt
       updatedAt
+      owner
     }
   }
 `;
@@ -50,6 +52,7 @@ export const listUsers = /* GraphQL */ `
         }
         createdAt
         updatedAt
+        owner
       }
       nextToken
     }
@@ -71,6 +74,7 @@ export const getRecipe = /* GraphQL */ `
         }
         createdAt
         updatedAt
+        owner
       }
       name
       servings
@@ -83,6 +87,7 @@ export const getRecipe = /* GraphQL */ `
       images
       createdAt
       updatedAt
+      owner
     }
   }
 `;
@@ -104,6 +109,7 @@ export const listRecipes = /* GraphQL */ `
           image
           createdAt
           updatedAt
+          owner
         }
         name
         servings
@@ -116,6 +122,7 @@ export const listRecipes = /* GraphQL */ `
         images
         createdAt
         updatedAt
+        owner
       }
       nextToken
     }
