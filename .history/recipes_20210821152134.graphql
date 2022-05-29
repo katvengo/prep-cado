@@ -1,0 +1,355 @@
+{
+  name: Alfredo Sauce
+  servings: 
+  prepTime: 
+  cookTime:  
+  ingredients:  4 tbs butter
+3 tbs flour
+1 tsp salt
+1/2 tsp pepper
+2 cups milk
+1/2 to 1/3 cup parmesan cheese
+  category: sauce
+  description: 
+  directions: Add the butter salt and pepper to a heavy medium sized pot and heat. Once the butter has melted add the flour and whisk until smooth, removing all lumps from the flour. Slowly pour the milk and whisk till smooth. Turn up the heat and then slowly add parmesan cheese. Whisking so it mixes in. 
+  images: 
+  createdAt: AWSDateTime,
+  updatedAt: AWSDateTime
+}
+
+{
+name: Beef Tacos
+servings: 
+prepTime: 
+cookTime:
+ingredients: Half pound of ground beef, 1-2 cans of Refried beans
+Cheddar cheese
+Lettuce
+Tomato
+Sour cream
+Avocado
+Corn tortillas
+  category: beef
+  description: 
+  directions:  
+  images: 
+  createdAt: AWSDateTime,
+  updatedAt: AWSDateTime
+}
+
+{
+name: Broccoli Cheddar Soup
+servings: 
+prepTime: 
+cookTime:  
+ingredients: 1 stick butter
+half an onion
+3 garlic
+4 tablespoons flour
+2 cups vegetable broth
+2 cups half and half, milk or heavy whipping cream
+3 cups or 1 head of broccoli
+1 cup or half of gouda block
+1 cup mild cheddar cheese
+  category: soup
+  description: 
+  directions:  Put butter in a pan and heat till it melts. Add onions and let it get golden, then add garlic. Let it simmer. Add flour, stir in Pour in vegetable broth. Then broccoli and let boil for a minute, then add cream and cheese
+  images: 
+  createdAt: AWSDateTime,
+  updatedAt: AWSDateTime
+}
+
+{
+name: Chicken Patties
+servings: 
+prepTime: 
+cookTime:  
+ingredients:
+category: chicken
+description: 
+directions:  
+Boil chicken until its easy to peal off
+
+Drain water
+Put in cold water
+
+Shred chicken using two forks
+
+In one large bowl
+Put chicken slices
+Bread crumbs
+2-3 eggs
+A few spoonfuls of mayo
+Salt
+Paprika
+Parsley (a lot)
+Pepper
+Mustard powder
+Mix together then roll into balls and out on the stove and make patties  images: 
+  createdAt: AWSDateTime,
+  updatedAt: AWSDateTime
+}
+
+{
+name: Broccoli Cheddar Soup
+servings: 
+prepTime: 
+cookTime:  
+ingredients: 1 stick butter
+half an onion
+3 garlic
+4 tablespoons flour
+2 cups vegetable broth
+2 cups half and half, milk or heavy whipping cream
+3 cups or 1 head of broccoli
+1 cup or half of gouda block
+1 cup mild cheddar cheese
+  category: soup
+  description: 
+  directions:  Put butter in a pan and heat till it melts. Add onions and let it get golden, then add garlic. Let it simmer. Add flour, stir in Pour in vegetable broth. Then broccoli and let boil for a minute, then add cream and cheese
+  images: 
+  createdAt: AWSDateTime,
+  updatedAt: AWSDateTime
+}
+
+{
+name: Broccoli Cheddar Soup
+servings: 
+prepTime: 
+cookTime:  
+ingredients: 1 stick butter
+half an onion
+3 garlic
+4 tablespoons flour
+2 cups vegetable broth
+2 cups half and half, milk or heavy whipping cream
+3 cups or 1 head of broccoli
+1 cup or half of gouda block
+1 cup mild cheddar cheese
+  category: soup
+  description: 
+  directions:  Put butter in a pan and heat till it melts. Add onions and let it get golden, then add garlic. Let it simmer. Add flour, stir in Pour in vegetable broth. Then broccoli and let boil for a minute, then add cream and cheese
+  images: 
+  createdAt: AWSDateTime,
+  updatedAt: AWSDateTime
+}
+
+{
+name: Broccoli Cheddar Soup
+servings: 
+prepTime: 
+cookTime:  
+ingredients: 1 stick butter
+half an onion
+3 garlic
+4 tablespoons flour
+2 cups vegetable broth
+2 cups half and half, milk or heavy whipping cream
+3 cups or 1 head of broccoli
+1 cup or half of gouda block
+1 cup mild cheddar cheese
+  category: soup
+  description: 
+  directions:  Put butter in a pan and heat till it melts. Add onions and let it get golden, then add garlic. Let it simmer. Add flour, stir in Pour in vegetable broth. Then broccoli and let boil for a minute, then add cream and cheese
+  images: 
+  createdAt: AWSDateTime,
+  updatedAt: AWSDateTime
+}
+
+{
+name: Broccoli Cheddar Soup
+servings: 
+prepTime: 
+cookTime:  
+ingredients: 1 stick butter
+half an onion
+3 garlic
+4 tablespoons flour
+2 cups vegetable broth
+2 cups half and half, milk or heavy whipping cream
+3 cups or 1 head of broccoli
+1 cup or half of gouda block
+1 cup mild cheddar cheese
+  category: soup
+  description: 
+  directions:  Put butter in a pan and heat till it melts. Add onions and let it get golden, then add garlic. Let it simmer. Add flour, stir in Pour in vegetable broth. Then broccoli and let boil for a minute, then add cream and cheese
+  images: 
+  createdAt: AWSDateTime,
+  updatedAt: AWSDateTime
+}
+
+{
+name: Broccoli Cheddar Soup
+servings: 
+prepTime: 
+cookTime:  
+ingredients: 1 stick butter
+half an onion
+3 garlic
+4 tablespoons flour
+2 cups vegetable broth
+2 cups half and half, milk or heavy whipping cream
+3 cups or 1 head of broccoli
+1 cup or half of gouda block
+1 cup mild cheddar cheese
+  category: soup
+  description: 
+  directions:  Put butter in a pan and heat till it melts. Add onions and let it get golden, then add garlic. Let it simmer. Add flour, stir in Pour in vegetable broth. Then broccoli and let boil for a minute, then add cream and cheese
+  images: 
+  createdAt: AWSDateTime,
+  updatedAt: AWSDateTime
+}
+
+{
+name: Broccoli Cheddar Soup
+servings: 
+prepTime: 
+cookTime:  
+ingredients: 1 stick butter
+half an onion
+3 garlic
+4 tablespoons flour
+2 cups vegetable broth
+2 cups half and half, milk or heavy whipping cream
+3 cups or 1 head of broccoli
+1 cup or half of gouda block
+1 cup mild cheddar cheese
+  category: soup
+  description: 
+  directions:  Put butter in a pan and heat till it melts. Add onions and let it get golden, then add garlic. Let it simmer. Add flour, stir in Pour in vegetable broth. Then broccoli and let boil for a minute, then add cream and cheese
+  images: 
+  createdAt: AWSDateTime,
+  updatedAt: AWSDateTime
+}
+
+{
+name: Broccoli Cheddar Soup
+servings: 
+prepTime: 
+cookTime:  
+ingredients: 1 stick butter
+half an onion
+3 garlic
+4 tablespoons flour
+2 cups vegetable broth
+2 cups half and half, milk or heavy whipping cream
+3 cups or 1 head of broccoli
+1 cup or half of gouda block
+1 cup mild cheddar cheese
+  category: soup
+  description: 
+  directions:  Put butter in a pan and heat till it melts. Add onions and let it get golden, then add garlic. Let it simmer. Add flour, stir in Pour in vegetable broth. Then broccoli and let boil for a minute, then add cream and cheese
+  images: 
+  createdAt: AWSDateTime,
+  updatedAt: AWSDateTime
+}
+
+{
+name: Broccoli Cheddar Soup
+servings: 
+prepTime: 
+cookTime:  
+ingredients: 1 stick butter
+half an onion
+3 garlic
+4 tablespoons flour
+2 cups vegetable broth
+2 cups half and half, milk or heavy whipping cream
+3 cups or 1 head of broccoli
+1 cup or half of gouda block
+1 cup mild cheddar cheese
+  category: soup
+  description: 
+  directions:  Put butter in a pan and heat till it melts. Add onions and let it get golden, then add garlic. Let it simmer. Add flour, stir in Pour in vegetable broth. Then broccoli and let boil for a minute, then add cream and cheese
+  images: 
+  createdAt: AWSDateTime,
+  updatedAt: AWSDateTime
+}
+
+{
+name: Broccoli Cheddar Soup
+servings: 
+prepTime: 
+cookTime:  
+ingredients: 1 stick butter
+half an onion
+3 garlic
+4 tablespoons flour
+2 cups vegetable broth
+2 cups half and half, milk or heavy whipping cream
+3 cups or 1 head of broccoli
+1 cup or half of gouda block
+1 cup mild cheddar cheese
+  category: soup
+  description: 
+  directions:  Put butter in a pan and heat till it melts. Add onions and let it get golden, then add garlic. Let it simmer. Add flour, stir in Pour in vegetable broth. Then broccoli and let boil for a minute, then add cream and cheese
+  images: 
+  createdAt: AWSDateTime,
+  updatedAt: AWSDateTime
+}
+
+{
+name: Broccoli Cheddar Soup
+servings: 
+prepTime: 
+cookTime:  
+ingredients: 1 stick butter
+half an onion
+3 garlic
+4 tablespoons flour
+2 cups vegetable broth
+2 cups half and half, milk or heavy whipping cream
+3 cups or 1 head of broccoli
+1 cup or half of gouda block
+1 cup mild cheddar cheese
+  category: soup
+  description: 
+  directions:  Put butter in a pan and heat till it melts. Add onions and let it get golden, then add garlic. Let it simmer. Add flour, stir in Pour in vegetable broth. Then broccoli and let boil for a minute, then add cream and cheese
+  images: 
+  createdAt: AWSDateTime,
+  updatedAt: AWSDateTime
+}
+
+{
+name: Broccoli Cheddar Soup
+servings: 
+prepTime: 
+cookTime:  
+ingredients: 1 stick butter
+half an onion
+3 garlic
+4 tablespoons flour
+2 cups vegetable broth
+2 cups half and half, milk or heavy whipping cream
+3 cups or 1 head of broccoli
+1 cup or half of gouda block
+1 cup mild cheddar cheese
+  category: soup
+  description: 
+  directions:  Put butter in a pan and heat till it melts. Add onions and let it get golden, then add garlic. Let it simmer. Add flour, stir in Pour in vegetable broth. Then broccoli and let boil for a minute, then add cream and cheese
+  images: 
+  createdAt: AWSDateTime,
+  updatedAt: AWSDateTime
+}
+
+{
+name: Broccoli Cheddar Soup
+servings: 
+prepTime: 
+cookTime:  
+ingredients: 1 stick butter
+half an onion
+3 garlic
+4 tablespoons flour
+2 cups vegetable broth
+2 cups half and half, milk or heavy whipping cream
+3 cups or 1 head of broccoli
+1 cup or half of gouda block
+1 cup mild cheddar cheese
+  category: soup
+  description: 
+  directions:  Put butter in a pan and heat till it melts. Add onions and let it get golden, then add garlic. Let it simmer. Add flour, stir in Pour in vegetable broth. Then broccoli and let boil for a minute, then add cream and cheese
+  images: 
+  createdAt: AWSDateTime,
+  updatedAt: AWSDateTime
+}

@@ -8,7 +8,7 @@ export const createUser = /* GraphQL */ `
   ) {
     createUser(input: $input, condition: $condition) {
       id
-      username
+      email
       preferred_username
       bio
       image
@@ -22,9 +22,11 @@ export const createUser = /* GraphQL */ `
           cookTime
           ingredients
           category
+          cuisine
           description
           directions
           images
+          url
           createdAt
           updatedAt
           owner
@@ -44,7 +46,7 @@ export const updateUser = /* GraphQL */ `
   ) {
     updateUser(input: $input, condition: $condition) {
       id
-      username
+      email
       preferred_username
       bio
       image
@@ -58,9 +60,11 @@ export const updateUser = /* GraphQL */ `
           cookTime
           ingredients
           category
+          cuisine
           description
           directions
           images
+          url
           createdAt
           updatedAt
           owner
@@ -80,7 +84,7 @@ export const deleteUser = /* GraphQL */ `
   ) {
     deleteUser(input: $input, condition: $condition) {
       id
-      username
+      email
       preferred_username
       bio
       image
@@ -94,9 +98,11 @@ export const deleteUser = /* GraphQL */ `
           cookTime
           ingredients
           category
+          cuisine
           description
           directions
           images
+          url
           createdAt
           updatedAt
           owner
@@ -119,7 +125,7 @@ export const createRecipe = /* GraphQL */ `
       id
       authorObject {
         id
-        username
+        email
         preferred_username
         bio
         image
@@ -136,9 +142,11 @@ export const createRecipe = /* GraphQL */ `
       cookTime
       ingredients
       category
+      cuisine
       description
       directions
       images
+      url
       createdAt
       updatedAt
       owner
@@ -155,7 +163,7 @@ export const updateRecipe = /* GraphQL */ `
       id
       authorObject {
         id
-        username
+        email
         preferred_username
         bio
         image
@@ -172,9 +180,11 @@ export const updateRecipe = /* GraphQL */ `
       cookTime
       ingredients
       category
+      cuisine
       description
       directions
       images
+      url
       createdAt
       updatedAt
       owner
@@ -191,7 +201,7 @@ export const deleteRecipe = /* GraphQL */ `
       id
       authorObject {
         id
-        username
+        email
         preferred_username
         bio
         image
@@ -208,9 +218,11 @@ export const deleteRecipe = /* GraphQL */ `
       cookTime
       ingredients
       category
+      cuisine
       description
       directions
       images
+      url
       createdAt
       updatedAt
       owner

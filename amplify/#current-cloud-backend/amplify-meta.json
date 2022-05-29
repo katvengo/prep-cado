@@ -18,9 +18,9 @@
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda",
-      "lastBuildTimeStamp": "2021-08-21T19:57:49.788Z",
+      "lastBuildTimeStamp": "2021-08-21T20:42:15.954Z",
       "lastBuildType": "PROD",
-      "lastPackageTimeStamp": "2021-08-21T19:57:49.901Z",
+      "lastPackageTimeStamp": "2021-08-21T20:42:15.999Z",
       "distZipFilename": "prepcado7655ff097655ff09CustomMessage-4c30304e647933733271-build.zip",
       "s3Bucket": {
         "deploymentBucketName": "amplify-prepcado-dev-124736-deployment",
@@ -30,14 +30,73 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-prepcado-dev-124736-deployment/amplify-cfn-templates/function/prepcado7655ff097655ff09CustomMessage-cloudformation-template.json",
         "logicalId": "functionprepcado7655ff097655ff09CustomMessage"
       },
-      "lastPushTimeStamp": "2021-08-21T20:02:11.463Z",
+      "lastPushTimeStamp": "2021-08-22T04:13:21.412Z",
       "output": {
         "Region": "us-west-2",
         "Arn": "arn:aws:lambda:us-west-2:050527149974:function:prepcado7655ff097655ff09CustomMessage-dev",
         "Name": "prepcado7655ff097655ff09CustomMessage-dev",
         "LambdaExecutionRole": "prepcado7655ff097655ff09CustomMessage-dev"
       },
-      "lastPushDirHash": "iAnqMK2/B+o+lgVKI2vwtXT53W0="
+      "lastPushDirHash": "4m0cniyRi56ynE0zDbia7C5/3mI="
+    },
+    "prepCadoCognitoDYnamoDB": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda",
+      "dependsOn": [
+        {
+          "category": "api",
+          "resourceName": "prepcado",
+          "attributes": [
+            "GraphQLAPIIdOutput"
+          ]
+        }
+      ],
+      "lastBuildTimeStamp": "2021-08-21T21:09:56.656Z",
+      "lastBuildType": "PROD",
+      "lastPackageTimeStamp": "2021-08-21T21:09:56.701Z",
+      "distZipFilename": "prepCadoCognitoDYnamoDB-63636e56477368424542-build.zip",
+      "s3Bucket": {
+        "deploymentBucketName": "amplify-prepcado-dev-124736-deployment",
+        "s3Key": "amplify-builds/prepCadoCognitoDYnamoDB-63636e56477368424542-build.zip"
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-prepcado-dev-124736-deployment/amplify-cfn-templates/function/prepCadoCognitoDYnamoDB-cloudformation-template.json",
+        "logicalId": "functionprepCadoCognitoDYnamoDB"
+      },
+      "lastPushTimeStamp": "2021-08-22T04:13:21.418Z",
+      "output": {
+        "Region": "us-west-2",
+        "Arn": "arn:aws:lambda:us-west-2:050527149974:function:prepCadoCognitoDYnamoDB-dev",
+        "Name": "prepCadoCognitoDYnamoDB-dev",
+        "LambdaExecutionRole": "prepcadoLambdaRole95a65782-dev"
+      },
+      "lastPushDirHash": "ita8LNHGVN+RS3LNcBKII1jwlJI="
+    },
+    "prepcado7655ff097655ff09PreAuthentication": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda",
+      "lastBuildTimeStamp": "2021-08-22T04:11:16.558Z",
+      "lastBuildType": "PROD",
+      "lastPackageTimeStamp": "2021-08-22T04:11:16.603Z",
+      "distZipFilename": "prepcado7655ff097655ff09PreAuthentication-307a786c352b57633577-build.zip",
+      "s3Bucket": {
+        "deploymentBucketName": "amplify-prepcado-dev-124736-deployment",
+        "s3Key": "amplify-builds/prepcado7655ff097655ff09PreAuthentication-307a786c352b57633577-build.zip"
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-prepcado-dev-124736-deployment/amplify-cfn-templates/function/prepcado7655ff097655ff09PreAuthentication-cloudformation-template.json",
+        "logicalId": "functionprepcado7655ff097655ff09PreAuthentication"
+      },
+      "lastPushTimeStamp": "2021-08-22T04:13:21.432Z",
+      "output": {
+        "Region": "us-west-2",
+        "Arn": "arn:aws:lambda:us-west-2:050527149974:function:prepcado7655ff097655ff09PreAuthentication-dev",
+        "Name": "prepcado7655ff097655ff09PreAuthentication-dev",
+        "LambdaExecutionRole": "prepcado7655ff097655ff09PreAuthentication-dev"
+      },
+      "lastPushDirHash": "Uhp7aGFBWq7X7hT3CpOKa+/JQio="
     }
   },
   "auth": {
@@ -48,6 +107,15 @@
         {
           "category": "function",
           "resourceName": "prepcado7655ff097655ff09CustomMessage",
+          "triggerProvider": "Cognito",
+          "attributes": [
+            "Arn",
+            "Name"
+          ]
+        },
+        {
+          "category": "function",
+          "resourceName": "prepcado7655ff097655ff09PreAuthentication",
           "triggerProvider": "Cognito",
           "attributes": [
             "Arn",
@@ -76,7 +144,7 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-prepcado-dev-124736-deployment/amplify-cfn-templates/auth/prepcado7655ff097655ff09-cloudformation-template.yml",
         "logicalId": "authprepcado7655ff097655ff09"
       },
-      "lastPushTimeStamp": "2021-08-21T20:02:11.463Z",
+      "lastPushTimeStamp": "2021-08-22T04:13:21.432Z",
       "output": {
         "UserPoolId": "us-west-2_yH5Fv70xH",
         "AppClientIDWeb": "58kdjved8a7ok5sf8se6koj96m",
@@ -86,7 +154,7 @@
         "IdentityPoolName": "prepcado7655ff09_identitypool_7655ff09__dev",
         "UserPoolName": "prepcado7655ff09_userpool_7655ff09"
       },
-      "lastPushDirHash": "PEXTB8RSPopfjKyMMxX++06mtlA="
+      "lastPushDirHash": "nvlqNdUroo3EmIf8Ikmeq1428Bc="
     }
   },
   "api": {
@@ -110,8 +178,8 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-prepcado-dev-124736-deployment/amplify-cfn-templates/api/cloudformation-template.json",
         "logicalId": "apiprepcado"
       },
-      "lastPushTimeStamp": "2021-08-21T20:02:11.463Z",
-      "lastPushDirHash": "PaTiMBrdri0o39/EijHBIjTMyQc="
+      "lastPushTimeStamp": "2021-08-22T04:13:21.424Z",
+      "lastPushDirHash": "Nzj70Sg6aI3mYywHB0skmqfVhxM="
     }
   },
   "storage": {
@@ -122,7 +190,7 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-prepcado-dev-124736-deployment/amplify-cfn-templates/storage/s3-cloudformation-template.json",
         "logicalId": "storages37d1e7beb"
       },
-      "lastPushTimeStamp": "2021-08-21T20:02:11.463Z",
+      "lastPushTimeStamp": "2021-08-22T04:13:21.426Z",
       "output": {
         "BucketName": "prepcadofc01ed34616c49d38896e4fc4c3a59ea124736-dev",
         "Region": "us-west-2"

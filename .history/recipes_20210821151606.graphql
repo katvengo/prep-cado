@@ -1,0 +1,13 @@
+{
+  name: 
+  servings: 
+  prepTime: , 
+  cookTime: , 
+  ingredients: , 
+  category: ,
+  description: ,
+  directions: ,
+  images: [],
+  createdAt: AWSDateTime,
+  updatedAt: AWSDateTime
+}

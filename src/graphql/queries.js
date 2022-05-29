@@ -5,7 +5,7 @@ export const getUser = /* GraphQL */ `
   query GetUser($id: ID!) {
     getUser(id: $id) {
       id
-      username
+      email
       preferred_username
       bio
       image
@@ -19,9 +19,11 @@ export const getUser = /* GraphQL */ `
           cookTime
           ingredients
           category
+          cuisine
           description
           directions
           images
+          url
           createdAt
           updatedAt
           owner
@@ -43,7 +45,7 @@ export const listUsers = /* GraphQL */ `
     listUsers(filter: $filter, limit: $limit, nextToken: $nextToken) {
       items {
         id
-        username
+        email
         preferred_username
         bio
         image
@@ -65,7 +67,7 @@ export const getRecipe = /* GraphQL */ `
       id
       authorObject {
         id
-        username
+        email
         preferred_username
         bio
         image
@@ -82,9 +84,11 @@ export const getRecipe = /* GraphQL */ `
       cookTime
       ingredients
       category
+      cuisine
       description
       directions
       images
+      url
       createdAt
       updatedAt
       owner
@@ -103,7 +107,7 @@ export const listRecipes = /* GraphQL */ `
         id
         authorObject {
           id
-          username
+          email
           preferred_username
           bio
           image
@@ -117,9 +121,11 @@ export const listRecipes = /* GraphQL */ `
         cookTime
         ingredients
         category
+        cuisine
         description
         directions
         images
+        url
         createdAt
         updatedAt
         owner

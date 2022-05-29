@@ -22,16 +22,18 @@ Parameters:
   
   
   
+  functionprepcado7655ff097655ff09PreAuthenticationArn:
+    Type: String
+    Default: functionprepcado7655ff097655ff09PreAuthenticationArn
+  
+  functionprepcado7655ff097655ff09PreAuthenticationName:
+    Type: String
+    Default: functionprepcado7655ff097655ff09PreAuthenticationName
+  
+  
+  
 
     
-  identityPoolName:
-    Type: String
-  
-            
-  
-  allowUnauthenticatedIdentities:
-    Type: String
-            
   resourceNameTruncated:
     Type: String
   
@@ -131,10 +133,6 @@ Parameters:
   
             
   
-  thirdPartyAuth:
-    Type: String
-            
-  
   userPoolGroups:
     Type: String
             
@@ -184,6 +182,11 @@ Parameters:
       
         
   dependsOn:
+    Type: CommaDelimitedList
+      
+            
+        
+  authProviders:
     Type: CommaDelimitedList
       
 Conditions:
@@ -432,50 +435,8 @@ Resources:
 
   
     
-  # BEGIN IDENTITY POOL RESOURCES
-  
-
-  IdentityPool:
-  # Always created
-    Type: AWS::Cognito::IdentityPool
-    Properties:
-      IdentityPoolName: !If [ShouldNotCreateEnvResources, 'prepcado7655ff09_identitypool_7655ff09', !Join ['',['prepcado7655ff09_identitypool_7655ff09', '__', !Ref env]]]
-      
-      CognitoIdentityProviders:
-        - ClientId:  !Ref UserPoolClient
-          ProviderName: !Sub
-            - cognito-idp.${region}.amazonaws.com/${client}
-            - { region: !Ref "AWS::Region",  client: !Ref UserPool}
-        - ClientId:  !Ref UserPoolClientWeb
-          ProviderName: !Sub
-            - cognito-idp.${region}.amazonaws.com/${client}
-            - { region: !Ref "AWS::Region",  client: !Ref UserPool}
-            
-      AllowUnauthenticatedIdentities: !Ref allowUnauthenticatedIdentities
-      
-    
-    DependsOn: UserPoolClientInputs
-    
-
-  IdentityPoolRoleMap:
-  # Created to map Auth and Unauth roles to the identity pool
-  # Depends on Identity Pool for ID ref
-    Type: AWS::Cognito::IdentityPoolRoleAttachment
-    Properties:
-      IdentityPoolId: !Ref IdentityPool
-      Roles:
-          unauthenticated: !Ref unauthRoleArn
-          authenticated: !Ref authRoleArn
-    DependsOn: IdentityPool
-  
 
 Outputs :
-  
-  IdentityPoolId:
-    Value: !Ref 'IdentityPool'
-    Description:  Id for the identity pool
-  IdentityPoolName:
-    Value: !GetAtt IdentityPool.Name
   
   
   

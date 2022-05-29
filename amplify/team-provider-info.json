@@ -19,6 +19,14 @@
           "EMAILMESSAGE": "",
           "deploymentBucketName": "amplify-prepcado-dev-124736-deployment",
           "s3Key": "amplify-builds/prepcado7655ff097655ff09CustomMessage-4c30304e647933733271-build.zip"
+        },
+        "prepCadoCognitoDYnamoDB": {
+          "deploymentBucketName": "amplify-prepcado-dev-124736-deployment",
+          "s3Key": "amplify-builds/prepCadoCognitoDYnamoDB-63636e56477368424542-build.zip"
+        },
+        "prepcado7655ff097655ff09PreAuthentication": {
+          "deploymentBucketName": "amplify-prepcado-dev-124736-deployment",
+          "s3Key": "amplify-builds/prepcado7655ff097655ff09PreAuthentication-307a786c352b57633577-build.zip"
         }
       },
       "auth": {

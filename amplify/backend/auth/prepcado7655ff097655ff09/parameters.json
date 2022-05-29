@@ -1,6 +1,4 @@
 {
-    "identityPoolName": "prepcado7655ff09_identitypool_7655ff09",
-    "allowUnauthenticatedIdentities": true,
     "resourceNameTruncated": "prepca7655ff09",
     "userPoolName": "prepcado7655ff09_userpool_7655ff09",
     "autoVerifiedAttributes": [
@@ -26,19 +24,24 @@
     "userpoolClientGenerateSecret": false,
     "userpoolClientRefreshTokenValidity": 30,
     "userpoolClientWriteAttributes": [
+        "nickname",
         "preferred_username",
+        "picture",
         "email"
     ],
     "userpoolClientReadAttributes": [
         "email",
+        "nickname",
         "preferred_username",
-        "picture"
+        "picture",
+        "email_verified",
+        "phone_number_verified"
     ],
     "userpoolClientLambdaRole": "prepca7655ff09_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": true,
     "sharedId": "7655ff09",
     "resourceName": "prepcado7655ff097655ff09",
-    "authSelections": "identityPoolAndUserPool",
+    "authSelections": "userPoolOnly",
     "authRoleArn": {
         "Fn::GetAtt": [
             "AuthRole",
@@ -52,10 +55,9 @@
         ]
     },
     "useDefault": "manual",
-    "thirdPartyAuth": false,
     "userPoolGroups": false,
     "adminQueries": false,
-    "triggers": "{\n  \"CustomMessage\": [\n    \"verification-link\"\n  ]\n}",
+    "triggers": "{\n  \"CustomMessage\": [\n    \"verification-link\"\n  ],\n  \"PreAuthentication\": [\n    \"custom\"\n  ]\n}",
     "hostedUI": false,
     "userPoolGroupList": [],
     "serviceName": "Cognito",
@@ -64,7 +66,7 @@
     "parentStack": {
         "Ref": "AWS::StackId"
     },
-    "authTriggerConnections": "[\n  {\n    \"triggerType\": \"CustomMessage\",\n    \"lambdaFunctionName\": \"prepcado7655ff097655ff09CustomMessage\"\n  }\n]",
+    "authTriggerConnections": "[\n  {\n    \"triggerType\": \"CustomMessage\",\n    \"lambdaFunctionName\": \"prepcado7655ff097655ff09CustomMessage\"\n  },\n  {\n    \"triggerType\": \"PreAuthentication\",\n    \"lambdaFunctionName\": \"prepcado7655ff097655ff09PreAuthentication\"\n  }\n]",
     "breakCircularDependency": true,
     "permissions": [],
     "dependsOn": [
@@ -76,6 +78,16 @@
                 "Arn",
                 "Name"
             ]
+        },
+        {
+            "category": "function",
+            "resourceName": "prepcado7655ff097655ff09PreAuthentication",
+            "triggerProvider": "Cognito",
+            "attributes": [
+                "Arn",
+                "Name"
+            ]
         }
-    ]
+    ],
+    "authProviders": []
 }

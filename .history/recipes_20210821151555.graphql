@@ -1,0 +1,15 @@
+{
+  id: ID
+  authorObject: User!  @connection(name: "AuthorRecipe", keyField: "userId")
+  name: String
+  servings: String
+  prepTime: String, 
+  cookTime: String, 
+  ingredients: String, 
+  category: String,
+  description: String,
+  directions: String,
+  images: [String],
+  createdAt: AWSDateTime,
+  updatedAt: AWSDateTime
+}

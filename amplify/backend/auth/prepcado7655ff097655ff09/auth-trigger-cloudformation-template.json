@@ -16,6 +16,12 @@
     },
     "functionprepcado7655ff097655ff09CustomMessageArn": {
       "Type": "String"
+    },
+    "functionprepcado7655ff097655ff09PreAuthenticationName": {
+      "Type": "String"
+    },
+    "functionprepcado7655ff097655ff09PreAuthenticationArn": {
+      "Type": "String"
     }
   },
   "Conditions": {
@@ -35,6 +41,19 @@
         "Action": "lambda:InvokeFunction",
         "FunctionName": {
           "Ref": "functionprepcado7655ff097655ff09CustomMessageName"
+        },
+        "Principal": "cognito-idp.amazonaws.com",
+        "SourceArn": {
+          "Ref": "userpoolArn"
+        }
+      }
+    },
+    "UserPoolPreAuthenticationLambdaInvokePermission": {
+      "Type": "AWS::Lambda::Permission",
+      "Properties": {
+        "Action": "lambda:InvokeFunction",
+        "FunctionName": {
+          "Ref": "functionprepcado7655ff097655ff09PreAuthenticationName"
         },
         "Principal": "cognito-idp.amazonaws.com",
         "SourceArn": {
@@ -135,6 +154,13 @@
             "lambdaFunctionName": "prepcado7655ff097655ff09CustomMessage",
             "lambdaFunctionArn": {
               "Ref": "functionprepcado7655ff097655ff09CustomMessageArn"
+            }
+          },
+          {
+            "triggerType": "PreAuthentication",
+            "lambdaFunctionName": "prepcado7655ff097655ff09PreAuthentication",
+            "lambdaFunctionArn": {
+              "Ref": "functionprepcado7655ff097655ff09PreAuthenticationArn"
             }
           }
         ]

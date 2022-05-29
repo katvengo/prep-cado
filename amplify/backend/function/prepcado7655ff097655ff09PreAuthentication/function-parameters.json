@@ -1,0 +1,17 @@
+{
+  "trigger": true,
+  "modules": [
+    "custom"
+  ],
+  "parentResource": "prepcado7655ff097655ff09",
+  "functionName": "prepcado7655ff097655ff09PreAuthentication",
+  "resourceName": "prepcado7655ff097655ff09PreAuthentication",
+  "parentStack": "auth",
+  "triggerEnvs": [],
+  "triggerDir": "/Users/katvengo/.nvm/versions/node/v16.6.2/lib/node_modules/@aws-amplify/cli/node_modules/amplify-category-auth/provider-utils/awscloudformation/triggers/PreAuthentication",
+  "triggerTemplate": "PreAuthentication.json.ejs",
+  "triggerEventPath": "PreAuthentication.event.json",
+  "roleName": "prepcado7655ff097655ff09PreAuthentication",
+  "skipEdit": true,
+  "enableCors": false
+}

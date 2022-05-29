@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import * as Yup from 'yup'
 import { Storage} from 'aws-amplify';
 import Amplify, { API,  graphqlOperation } from '@aws-amplify/api';
-import config from '../../aws-exports'
+import config from '../../src/aws-exports'
 Amplify.configure(config)
 import useAuth from "../Auth/useAuth";
 

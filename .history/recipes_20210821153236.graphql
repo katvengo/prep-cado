@@ -1,0 +1,404 @@
+{
+  name: Alfredo Sauce
+  servings: 
+  prepTime: 
+  cookTime:  
+  ingredients:  4 tbs butter
+3 tbs flour
+1 tsp salt
+1/2 tsp pepper
+2 cups milk
+1/2 to 1/3 cup parmesan cheese
+  category: sauce
+  description: 
+  directions: Add the butter salt and pepper to a heavy medium sized pot and heat. Once the butter has melted add the flour and whisk until smooth, removing all lumps from the flour. Slowly pour the milk and whisk till smooth. Turn up the heat and then slowly add parmesan cheese. Whisking so it mixes in. 
+  images: 
+  createdAt: AWSDateTime,
+  updatedAt: AWSDateTime
+}
+
+{
+name: Beef Tacos
+servings: 
+prepTime: 
+cookTime:
+ingredients: Half pound of ground beef, 1-2 cans of Refried beans
+Cheddar cheese
+Lettuce
+Tomato
+Sour cream
+Avocado
+Corn tortillas
+  category: beef
+  description: 
+  directions:  
+  images: 
+  createdAt: AWSDateTime,
+  updatedAt: AWSDateTime
+}
+
+{
+name: Broccoli Cheddar Soup
+servings: 
+prepTime: 
+cookTime:  
+ingredients: 1 stick butter
+half an onion
+3 garlic
+4 tablespoons flour
+2 cups vegetable broth
+2 cups half and half, milk or heavy whipping cream
+3 cups or 1 head of broccoli
+1 cup or half of gouda block
+1 cup mild cheddar cheese
+  category: soup
+  description: 
+  directions:  Put butter in a pan and heat till it melts. Add onions and let it get golden, then add garlic. Let it simmer. Add flour, stir in Pour in vegetable broth. Then broccoli and let boil for a minute, then add cream and cheese
+  images: 
+  createdAt: AWSDateTime,
+  updatedAt: AWSDateTime
+}
+
+{
+name: Chicken Patties
+servings: 
+prepTime: 
+cookTime:  
+ingredients: chicken, breadcrumbs, 2-3 egs, mayo, salt, paprika, parsley, pepper, mustard powder
+category: chicken
+description: 
+directions:  
+Boil chicken until its easy to peal off
+
+Drain water
+Put in cold water
+
+Shred chicken using two forks
+
+In one large bowl
+Put chicken slices
+Bread crumbs
+2-3 eggs
+A few spoonfuls of mayo
+Salt
+Paprika
+Parsley (a lot)
+Pepper
+Mustard powder
+Mix together then roll into balls and out on the stove and make patties  images: 
+  createdAt: AWSDateTime,
+  updatedAt: AWSDateTime
+}
+
+{
+name: Chicken Tortilla Soup
+servings: 
+prepTime: 
+cookTime:  
+ingredients: 
+Chicken
+1/2 cup cilantro
+4 cups chicken broth
+1 cup water per bouillon cube
+2 cans black beans
+corn
+carrots
+1 onion
+2 cloves garlic
+2 jalapeno peppers
+  category: soup
+  description: 
+  directions: Put all items in crockpot and turn on heat to low for 6-8 hours
+  images: 
+  createdAt: AWSDateTime,
+  updatedAt: AWSDateTime
+}
+
+{
+name: Chii
+servings: 
+prepTime: 
+cookTime:  45 minutes
+ingredients:
+2 Large Cans Chilli Beans
+1-1/2 Lbs ground beef
+2 small cans contadina tomato sauce
+4 yellow, red, green
+1 small yellow onion, thinly sliced
+6 Spices, chili powder, black pepper, cayenne
+pepper, salt
+Olive oil
+  category: soup
+  description: 
+  directions:  
+Heat up oil on medium in a large pot. Add sliced onions, cook till golden, add ground beef. Cook till beef a browned. Add chili beans and tomato sauce, and water. (Use a tomato sauce can to fill with water for measurement).
+Add around 3-4 tablespoons of chili powder, 1/2 teaspoon of black pepper, 1/8 tsp. cayenne pepper. Don't add salt right away.. Just add enough for flavor enhancement. Add frozen peppers. Cook on medium till it starts to simmer. Then lower heat ( to low) and cook for 1 hour (or 45 minutes)   images: 
+  createdAt: AWSDateTime,
+  updatedAt: AWSDateTime
+}
+
+{
+name: Eggplant Parmesan
+servings: 
+prepTime: 
+cookTime:  
+ingredients:
+1-2 Eggplant
+Parmesan cheese
+breadcrumbs
+mozzarella cheese
+3 cans tomato sauce
+2-3 garlic cloves
+1 onion
+basil
+oregano
+red wine for taste
+2 large eggs
+1/4 cup milk
+  category: casserole
+  description: 
+  directions:  
+  Make red sauce
+Pre-heat oven for to 400 degrees
+
+Slice eggplant quarter thickness
+Put eggs and milk in one bowl and Parmesan cheese and breadcrumbs in another
+After slicing eggplant put it in the egg wash and then Parmesan breadcrumb bowl
+
+Put olive oil and butter in a skillet and cook each side till it’s golden
+
+Then layer the eggplant in a dish with mozzarella, sauce then eggplant.
+
+Bake till cheese melts
+  images: 
+  createdAt: AWSDateTime,
+  updatedAt: AWSDateTime
+}
+
+{
+name: Red Enchiladas
+servings: 
+prepTime: 
+cookTime:  
+ingredients:
+Frozen boneless skinless chicken
+Corn tortillas
+2 Tablespoons of Canola Oil
+2 Tablespoons of Flour
+28-ounce can of Enchilada Sauce
+2 cups of chicken broth
+1/2 teaspoon of Salt
+1/2 teaspoon of Black Pepper
+3 cups of grated Cheese
+  category: casserole
+  description: 
+  directions:  In a saucepan over medium-low heat, combine the canola oil and flour. Whisk together and allow to bubble for 1 minute. Pour in the red sauce, chicken broth, salt and pepper. Bring to a boil. Reduce the heat and simmer while you prepare the other ingredients.
+
+In a small skillet over medium heat, heat some canola oil. Lightly fry the tortillas just until soft. Do not crisp. Drain on a paper towel-lined plate. Repeat until all the tortillas have been fried.
+Preheat the oven to 350 degrees F.
+Spread 1/2 cup of the sauce in the bottom of a 9- by 13-inch baking dish. Next, one at a time, dip each tortilla into the sauce. Set the sauce-soaked tortilla on a plate. Place on some of the meat mixture, chilies, green onions and black olives. Top with a generous portion of grated Cheddar. Roll up the tortilla to contain the filling inside.
+Place the tortilla seam side down in the baking dish. Repeat with the rest of the tortillas and pour the remaining sauce over the top. End with a generous sprinkling of cheese and any other bits of chiles, green onions or olives you have left over from the filling.
+Bake the enchiladas for 20 minutes, or until bubbly. Sprinkle chopped cilantro over the top and serve.
+
+Read more at: http://www.foodnetwork.com/recipes/ree-drummond/simple-perfect-enchiladas-recipe0.html?oc=linkback
+  images: 
+  createdAt: AWSDateTime,
+  updatedAt: AWSDateTime
+}
+
+{
+name: Green Enchiladas
+servings: 
+prepTime: 
+cookTime:  
+ingredients:
+1 28 oz. can Las Palmas® Green Enchilada Sauce
+
+1 cup onion, chopped
+
+1/4 cup fresh cilantro, chopped
+
+2 garlic cloves, minced
+
+2 cups chicken breast, cooked, shredded
+
+1/3 cup 1/3-less-fat-cream cheese, softened
+
+1 cup fat-free, less sodium chicken broth
+
+8 6" corn tortillas
+
+1/4 cup queso fresco, crumbled
+
+1/2 tsp. chili powder
+
+4 lime wedges
+
+cilantro sprigs, (optional
+  category: casserole
+  description: 
+  directions:  Preheat oven to 425°F. Combine first four ingredients in blender; process until smooth. In a separate bowl, combine chicken and cream cheese in a large bowl. Stir in 1/2 cup salsa mixture. Reserve remaining salsa mixture. Bring broth to a simmer in a medium skillet. Working with one tortilla at a time, add tortilla to pan; cook 20 seconds or until moist, turning once. Remove tortilla; drain on paper towels. Spoon about 1/4 cup chicken mixture down center of tortilla; roll up. Place tortilla, seam-side down, in an 11 x 7-inch baking dish coated with cooking spray. Repeat procedure with remaining tortillas, broth and chicken mixture. Pour remaining salsa mixture over enchiladas; sprinkle evenly with queso fresco and chili powder. Bake at 425°F for 18 minutes or until thoroughly heated. Serve with lime wedges. Garnish with cilantro sprigs, if desired. 
+  images: 
+  createdAt: AWSDateTime,
+  updatedAt: AWSDateTime
+}
+
+{
+name: Fish Tacos
+servings: 
+prepTime: 
+cookTime:  
+ingredients: 
+1. Corn tortillas 
+2. Mahi or Tilapia for fish
+3. Chipotle sauce
+-lemon 
+-chipotle peppers. 
+-sour cream 
+-mayo  
+-Chili powder 
+-garlic cloves 
+1. Cabbage 
+2. Cheese 
+3. Avocado 
+4. Tomatoes 
+5. Cilantro 
+  category: seafood
+  description: 
+  directions:  Put tilapia in oven at 475 for 12-15 minutes 
+  images: 
+  createdAt: AWSDateTime,
+  updatedAt: AWSDateTime
+}
+
+{
+name: Italian Wedding Soup
+servings: 
+prepTime: 
+cookTime:  
+ingredients: 1 onion
+2-3 cloves garlic
+meatballs
+3 cups + of chicken broth
+2 cans white beans
+fresh tomato or can of stewed tomatoes
+carrots
+orzo
+  category: soup
+  description: 
+  directions:  
+Brown onions and garlic
+brown sausage in eithe rpot or put in somewhere to bake
+couple containers of chicken broth
+white small beans - soak or buy in a ccan
+dice fresh tomato or can of stewed tomatoes
+carrots
+dont put al orzo in pot. put individually
+  images: 
+  createdAt: AWSDateTime,
+  updatedAt: AWSDateTime
+}
+
+{
+name: Mac N Cheese
+servings: 
+prepTime: 
+cookTime:  
+ingredients: 
+1 teaspoon of Flour
+1 1/2 cup of Cheddar cheese
+1 2/3 cup of Milk
+Big chunk of Butter 
+(Not sure) Macoroni
+Bread crumbs
+  category: casserole
+  description: 
+  directions: In a medium pot heat up butter. Slowly add four to make a roix. Stirring consistently. Once they're mixed together slowly add milk, stirring continuously. As you add milk add cheese. Add more milk/cheese as you want. 
+
+In another pot cook macoroni. 
+
+Once macoroni is done add it to a deep dish bowl, add cheese sauce then stir together. Add breadcrumbs then heat in an oven at 350 degrees for 15-30 minutes. 
+  images: 
+  createdAt: AWSDateTime,
+  updatedAt: AWSDateTime
+}
+
+{
+name: Macadamia Crusted Mahi Mahi
+servings: 
+prepTime: 
+cookTime:  
+ingredients: 
+1/2 Cup Roasted macadamia nuts, roughly chopped
+2 Fillets of Mahi Mahi
+1/2 Tbsp Coconut oil, melted
+Sea salt
+Cilantro, for garnish
+  category: seafood
+  description: 
+  directions: INSTRUCTIONS
+Preheat oven to 450 degrees and line a baking sheet with parchment paper.
+In a food processor, crush the macadamia nuts until they form small crumbs. This will just take a few seconds, don't over process or you will have macadamia nut butter. Spread the crumbs onto a plate.
+Brush the Mahi Mahi fillets with melted coconut oil and press the top of each into the macadamia crumbs. Really make sure to press the crumbs in, so they stick to the fish. Season with salt.
+Place the fillets in the baking dish, nut side up, and bake for 7-9 minutes, or until the fish is white and flaky.
+Turn your oven to HIGH broil and broil for 1-3 minutes, until the nuts have gone golden and toasty.
+Garnish with cilantro and devour!
+  images: 
+  createdAt: AWSDateTime,
+  updatedAt: AWSDateTime
+}
+
+{
+name: Manicotti
+servings: 
+prepTime: 
+cookTime:  
+ingredients: (2) 32 oz containers of ricotta cheese
+2 cups of low moisture mozzarella (grated)
+11/2 cups or more of Pecorino Romano Cheese
+2 eggs
+1/4 cup of finely chopped fresh italian parsley
+white ground pepper
+white wine
+Salt to taste
+  category: italian
+  description: 
+  directions: http://onefavoredlife.blogspot.com/2012/12/dmc-cooking-school-crepes.html?m=1 
+  images: 
+  createdAt: AWSDateTime,
+  updatedAt: AWSDateTime
+}
+
+{
+name: Marinara Sauce for Pasta
+servings: 
+prepTime: 
+cookTime:  
+ingredients: 2-3 cloves of garlic, half an onion, ground beef (if desired) sal and pepper, 2 cans of red sauce 1 small can tomato paste
+  category: sauce
+  description: 
+  directions:  
+Instructions
+
+Chop up onions and garlic and cook them till golden brown in a pot with oil. Once golden, add ground beef (1 lb) cook to brown. Add salt and pepper. 
+
+Next add 2 cans of red sauce and 1 small can of tomato paste. Let simmer for twenty minutes. 
+
+Add basil, oregano and a little bit of red or white wine. Keep cooking sauce till it tastes yummy!   images: 
+  createdAt: AWSDateTime,
+  updatedAt: AWSDateTime
+}
+
+{
+name: Mashed Potatoes
+servings: 
+prepTime: 
+cookTime:  
+ingredients: potatoes, milk, butter, garlic
+category: soup
+description: 
+directions:  Peel and dice potatoes. heat up 1 cup of milk and 6 tablespoons of butter in a pot
+images: 
+createdAt: AWSDateTime,
+updatedAt: AWSDateTime
+}

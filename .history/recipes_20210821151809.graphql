@@ -1,0 +1,38 @@
+{
+  name: Alfredo Sauce
+  servings: 
+  prepTime: 
+  cookTime:  
+  ingredients:  4 tbs butter
+3 tbs flour
+1 tsp salt
+1/2 tsp pepper
+2 cups milk
+1/2 to 1/3 cup parmesan cheese
+  category: sauce
+  description: 
+  directions: Add the butter salt and pepper to a heavy medium sized pot and heat. Once the butter has melted add the flour and whisk until smooth, removing all lumps from the flour. Slowly pour the milk and whisk till smooth. Turn up the heat and then slowly add parmesan cheese. Whisking so it mixes in. 
+  images: 
+  createdAt: AWSDateTime,
+  updatedAt: AWSDateTime
+}
+
+{
+  name: Beef Tacos
+  servings: 
+  prepTime: 
+  cookTime:  
+  ingredients: Half pound of ground beef, 1-2 cans of Refried beans
+Cheddar cheese
+Lettuce
+Tomato
+Sour cream
+Avocado
+Corn tortillas
+  category: sauce
+  description: 
+  directions: Add the butter salt and pepper to a heavy medium sized pot and heat. Once the butter has melted add the flour and whisk until smooth, removing all lumps from the flour. Slowly pour the milk and whisk till smooth. Turn up the heat and then slowly add parmesan cheese. Whisking so it mixes in. 
+  images: 
+  createdAt: AWSDateTime,
+  updatedAt: AWSDateTime
+}
